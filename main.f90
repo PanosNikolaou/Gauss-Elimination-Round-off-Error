@@ -69,8 +69,6 @@ use types
 
     close(IUNIT)
 
-    !call cadna_end()
-
     call SYSTEM('gnuplot -p data_plot.plt')
 
 end program gem
